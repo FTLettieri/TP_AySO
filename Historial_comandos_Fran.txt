@@ -1,0 +1,130 @@
+cd
+ll
+ls
+cd root
+readme.txt
+cd carpeta_compartida
+ls
+ll
+cs ..
+cd ..
+clear
+ll
+clear
+ls
+clear
+help
+clear
+su
+who
+whoami
+id
+groups
+adduser
+ll
+cd etc
+cd root
+cd carpeta_compartida
+ls
+ll
+cd..
+cd
+ls -l
+cd .
+cd ..
+ls
+ll
+cd vagrant
+ls
+cd ..
+cd ubuntu
+ll -l
+cd etc
+help
+clear
+ls
+ll
+cd ubuntu
+cd vagrant
+ll
+ls -l
+ll -l
+ls -l
+cd ..
+cs -t
+cd -t
+dir
+dir -t
+cd ..
+dir
+dir -t
+cd etc
+cd ..
+dir
+help dir
+dir -v
+ch vagrant
+cd vagrant
+cd ..
+ls
+ll
+cd ..
+cd home
+ll
+cd ..
+ll
+dir
+ll
+ls -l
+ls
+ll
+ls
+ll
+ls -l
+who
+whoami
+vim
+ll
+cd repogit/
+ll
+cd TP_AySO/
+ll
+rmdir TP_AYSO
+rmdir TP_AySO/
+rm -r TP_AySO/
+ll
+echo "# TP_AYSO" >> README.md
+echo "TP" >> README.md
+cat README.md 
+tcpdump
+echo "tcpdump" >> comando_dump_net.txt
+ll
+cat comando_dump_net.txt 
+git add .
+git commit -m "ADD: Comando para Capturar y analizar el trafico de red"
+cat README.md << EOF
+Alumno: Francisco Lettieri
+Division: 312
+Turno: Noche
+EOF
+
+cat README.md 
+cat README.md << EOF
+Alumno: Francisco Lettieri
+Division: 312
+Turno: Noche
+EOF
+
+cat README.md >> EOF
+car README.md 
+cat README.md 
+cat >> README.md << EOF
+Alumno: Francisco Lettieri
+Division: 312
+Turno: Noche
+EOF
+
+cat README.md 
+git add .
+git commit -m "docs: se agrega info del alumno"
+history -a
