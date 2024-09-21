@@ -1,0 +1,535 @@
+    1  cd
+    2  ll
+    3  ls
+    4  cd root
+    5  readme.txt
+    6  cd carpeta_compartida
+    7  ls
+    8  ll
+    9  cs ..
+   10  cd ..
+   11  clear
+   12  ll
+   13  clear
+   14  ls
+   15  clear
+   16  help
+   17  clear
+   18  su
+   19  who
+   20  whoami
+   21  id
+   22  groups
+   23  adduser
+   24  ll
+   25  cd etc
+   26  cd root
+   27  cd carpeta_compartida
+   28  ls
+   29  ll
+   30  cd..
+   31  cd
+   32  ls -l
+   33  cd .
+   34  cd ..
+   35  ls
+   36  ll
+   37  cd vagrant
+   38  ls
+   39  cd ..
+   40  cd ubuntu
+   41  ll -l
+   42  cd etc
+   43  help
+   44  clear
+   45  ls
+   46  ll
+   47  cd ubuntu
+   48  cd vagrant
+   49  ll
+   50  ls -l
+   51  ll -l
+   52  ls -l
+   53  cd ..
+   54  cs -t
+   55  cd -t
+   56  dir
+   57  dir -t
+   58  cd ..
+   59  dir
+   60  dir -t
+   61  cd etc
+   62  cd ..
+   63  dir
+   64  help dir
+   65  dir -v
+   66  ch vagrant
+   67  cd vagrant
+   68  cd ..
+   69  ls
+   70  ll
+   71  cd ..
+   72  cd home
+   73  ll
+   74  cd ..
+   75  ll
+   76  dir
+   77  ll
+   78  ls -l
+   79  ls
+   80  ll
+   81  ls
+   82  ll
+   83  ls -l
+   84  who
+   85  whoami
+   86  vim
+   87  ll
+   88  cd repogit/
+   89  ll
+   90  cd TP_AySO/
+   91  ll
+   92  rmdir TP_AYSO
+   93  rmdir TP_AySO/
+   94  rm -r TP_AySO/
+   95  ll
+   96  echo "# TP_AYSO" >> README.md
+   97  echo "TP" >> README.md
+   98  cat README.md 
+   99  tcpdump
+  100  echo "tcpdump" >> comando_dump_net.txt
+  101  ll
+  102  cat comando_dump_net.txt 
+  103  git add .
+  104  git commit -m "ADD: Comando para Capturar y analizar el trafico de red"
+  105  cat README.md << EOF
+  106  Alumno: Francisco Lettieri
+  107  Division: 312
+  108  Turno: Noche
+  109  EOF
+  110  cat README.md 
+  111  cat README.md << EOF
+  112  Alumno: Francisco Lettieri
+  113  Division: 312
+  114  Turno: Noche
+  115  EOF
+  116  cat README.md >> EOF
+  117  car README.md 
+  118  cat README.md 
+  119  cat >> README.md << EOF
+  120  Alumno: Francisco Lettieri
+  121  Division: 312
+  122  Turno: Noche
+  123  EOF
+  124  cat README.md 
+  125  git add .
+  126  git commit -m "docs: se agrega info del alumno"
+  127  history -a
+  128  history
+  129  ssh-keygen
+  130  cat $HOME/.ssh/*.pub
+  131  ll
+  132  cd ..
+  133  ll
+  134  mkdir repogit
+  135  cd /repogit
+  136  cd repogit
+  137  ll
+  138  cd ..
+  139  cd repogit
+  140  ll
+  141  cd ..
+  142  cd home
+  143  cd ~
+  144  ll
+  145  cd ..
+  146  ll
+  147  sudo mkdir repogit
+  148  ll
+  149  cd repogit
+  150  git clone https://github.com/FTLettieri/TP_AySO.git
+  151  sudo git clone https://github.com/FTLettieri/TP_AySO.git
+  152  cd TP_AySO/
+  153  pwd
+  154  ls -l
+  155  cat /etc/os-release
+  156  man grep
+  157  grep HOME_URL /etc/os-release 
+  158  grep home_url /etc/os-release 
+  159  grep Home_url -i /etc/os-release 
+  160  whoami
+  161  echo "Usuario=$(whoami)" > datos_usuario.txt
+  162  sudo echo "Usuario=$(whoami)" > datos_usuario.txt
+  163  ls
+  164  cat $HOME/.ssh/*.pub
+  165  echo "Usuario=$(whoami)" > datos_usuario.txt
+  166  ls
+  167  ll 
+  168  cd ..
+  169  ll
+  170  cd TP_AySO/
+  171  touch aaa.txt
+  172  ll
+  173  cd
+  174  cd home
+  175  ll
+  176  cd ..
+  177  ll
+  178  cd vagrant
+  179  ll
+  180  tree
+  181  cd ..
+  182  tree
+  183  cd /home
+  184  cd ..
+  185  cd /home
+  186  ll
+  187  cd repogit/
+  188  ll
+  189  cd ..
+  190  rmdir repogit/
+  191  sudo rmdir repogit/
+  192  ll
+  193  cd repogit/
+  194  cd TP_AySO/
+  195  sudo touch aa.yxy
+  196  ll
+  197  rm aa.yxy
+  198  sudo rm aa.yxy -y
+  199  sudo rm aa.yxy
+  200  ll
+  201  echo "Usuario=$(whoami)" > datos_usuario.txt
+  202  sudo echo "Usuario=$(whoami)" > datos_usuario.txt
+  203  sudo echo "Usuario=$(whoami)"
+  204  sudo touch aaa.txt
+  205  ll
+  206  echo "afaf" > ghola.txt
+  207  sudo echo "afafa" > ghola.txt
+  208  clear
+  209  cd
+  210  ll
+  211  cd repogit/
+  212  ll
+  213  git clone https://github.com/FTLettieri/TP_AySO.git
+  214  cd TP_AySO/
+  215  pwd
+  216  ls -l
+  217  cat /etc/os-release 
+  218  grep HOME_URL /etc/os-release 
+  219  grep home_url /etc/os-release 
+  220  grp -i Home_url /etc/os-release 
+  221  grep -i Home_url /etc/os-release 
+  222  whoami
+  223  echo "Usuario=$(whoami)" > datos_usuario.txt
+  224  cat datos_usuario.txt 
+  225  git add .
+  226  grep man
+  227  ll
+  228  cd repogit/
+  229  ll
+  230  cd TP_AySO/
+  231  ll
+  232  cat datos_usuario.txt 
+  233  git status
+  234  git add .
+  235  git commit -m "ADD: agregado 1er ejercicio sobre datos_usuario.txt"
+  236  git config --global user.email "ftlettieri@gmail.com"
+  237  git config --global user.name FTLettieri
+  238  git commit -m "ADD: agregado 1er ejercicio sobre datos_usuario.txt"
+  239  git status
+  240  ll 
+  241  git commit -m "ADD: agregado 1er ejercicio sobre datos_usuario.txt"
+  242  git status
+  243  cat /proc/cpuinfo 
+  244  grep -i "model name" /proc/cpuinfo  >> datos_usuario.txt 
+  245  cat datos_usuario.txt 
+  246  rm datos_usuario.txt 
+  247  ll
+  248  echo "Usuario=$(whoami)" > datos_usuario.txt
+  249  cat datos_usuario.txt 
+  250  grep -i head-n1 "model name" /proc/cpuinfo  >> datos_usuario.txt 
+  251  grep -i "model name" /proc/cpuinfo | head -n1 >> datos_usuario.txt 
+  252  cat datos_usuario.txt 
+  253  rm datos_usuario.txt 
+  254  ll
+  255  echo "Usuario=$(whoami)" > datos_usuario.txt
+  256  git status
+  257  md datos_usuario.txt 
+  258  rm datos_usuario.txt 
+  259  ll
+  260  git status
+  261  git commit
+  262  git commit -a
+  263  ll
+  264  cd repogit/
+  265  ll
+  266  cd TP_AySO/
+  267  ll
+  268  git add .
+  269  git status
+  270  git add/rm
+  271  git add
+  272  git commit
+  273  git commit -a
+  274  rm datos_usuario.txt
+  275  ll
+  276  cd ..
+  277  rmdir TP_AySO/
+  278  ll
+  279  cd TP_AySO/
+  280  ll
+  281  rm README.md 
+  282  cd .git
+  283  ll
+  284  cd ..
+  285  cd..
+  286  cd ..
+  287  rmdir TP_AySO/
+  288  git commit
+  289  cd TP_AySO/
+  290  git commit
+  291  ll
+  292  cd repogit/
+  293  cd TP_AySO/
+  294  rm -f .git/index.lock
+  295  git status
+  296  git commit
+  297  git push
+  298  ll
+  299  echo "Usuario=$(whoami)" > datos_usuario.txt
+  300  cat datos_usuario.txt 
+  301  git add .
+  302  git commit -m "ADD: agregado 1er ejercicio sobre datos_usuario.txt"
+  303  grep -i "model name" /proc/cpuinfo | head n-1 > datos_usuario.txt 
+  304  grep -i "model name" /proc/cpuinfo | head -n1 > datos_usuario.txt 
+  305  cat datos_usuario.txt 
+  306  echo "Usuario=$(whoami)" > datos_usuario.txt
+  307  grep -i "model name" /proc/cpuinfo | head -n1 >> datos_usuario.txt 
+  308  cat datos_usuario.txt 
+  309  git add .
+  310  git commit -m "feat: Añadiendo info de CPU"
+  311  man grep
+  312  ll
+  313  cat datos_usuario.txt 
+  314  man sort 
+  315  grep -v "nologin" /etc/passwd | head -n10 | sort --key=7 >> lista_ordenada.txt
+  316  cat lista_ordenada.txt 
+  317  cat /etc/passwd
+  318  cat lista_ordenada.txt 
+  319  cat $HOME/.bash_history
+  320  cp $HOME/.bash_history Historial_comandos_Fran.txt
+  321  ll
+  322  cat Historial_comandos_Fran.txt 
+  323  git add .
+  324  git commit -m "ADD: se agrega historial de comandos"
+  325  git stats
+  326  git status
+  327  git push
+  328  ll
+  329  cd ..
+  330  ll
+  331  cd home
+  332  cd ~
+  333  ll
+  334  cd ..
+  335  ll
+  336  ls
+  337  ll
+  338  ll -l
+  339  cd ..
+  340  ll
+  341  echo hola
+  342  echo "hola mundo" |wc
+  343  help wc
+  344  wc help
+  345  history
+  346  clear
+  347  ls -l
+  348  # cat /etc/passwd
+  349  cat /etc/passwd
+  350  cat /etc/group
+  351  ls -l
+  352  clear
+  353  ll -s
+  354  pwd
+  355  ls -la
+  356  ls
+  357  ll
+  358  ls -la
+  359  ll
+  360  ls -la
+  361  ll
+  362  cat /etc/passwd
+  363  clear
+  364  cd home
+  365  cd ~
+  366  ls
+  367  cat README
+  368  sudo cat README
+  369  cd repogit/
+  370  ll
+  371  cd UTN-FRA_SO_onBording/
+  372  ls
+  373  l
+  374  ll
+  375  cd
+  376  touch prueba.txt
+  377  cat prueba.txt
+  378  echo "hola" > prueba.txt
+  379  cat prueba.txt
+  380  echo "hola" >> prueba.txt
+  381  cat prueba.txt 
+  382  echo "hola" > prueba.txt
+  383  cat prueba.txt
+  384  man
+  385  man man
+  386  man ls
+  387  man man
+  388  man vim
+  389  man ls
+  390  wc prueba.txt
+  391  wc -l << fin
+  392  hola
+  393  oafa
+  394  anwnfgawg
+  395  fin
+  396  wc -l << fin >> prueba.txt
+  397  agasg
+  398  wgawg
+  399  sag
+  400  fin
+  401  cat prueba.txt
+  402  rm prueba.txt 
+  403  ls
+  404  ll
+  405  cd UTN-FRA_SO_onBording/
+  406  cd ..
+  407  cd UTN-FRA_SO_onBording/
+  408  cd ..
+  409  cd UTN-FRA_SO_onBording/
+  410  cd home
+  411  cd ~
+  412  ls 
+  413  ll
+  414  cd repogit
+  415  cd UTN-FRA_SO_onBording/
+  416  man history
+  417  clear
+  418  clear history
+  419  clear
+  420  history
+  421  clear
+  422  history
+  423  clear
+  424  cat documento
+  425  cat documento 2
+  426  cat documento 1
+  427  cat documento 2 > error.txt
+  428  cat error.txt
+  429  cat documento 2 > error.txt
+  430  cat documento 2> error.txt
+  431  cat error.txt
+  432  cat documento 2> error.txt
+  433  clear
+  434  history
+  435  clear
+  436  ll
+  437  cat README.md
+  438  clear
+  439  ll
+  440  cat etc/group
+  441  cat /etc/group
+  442  cat /etc/passwd
+  443  tree
+  444  clear
+  445  tree
+  446  sudo apt update && sudo apt install tree -y
+  447  tree
+  448  cat error.txt 
+  449  md error.txt
+  450  rm error.txt
+  451  tree
+  452  mkdir prueba clase
+  453  tree
+  454  cd prueba
+  455  tree
+  456  cd ..
+  457  tree
+  458  cd ..
+  459  tree
+  460  cd UTN-FRA_SO_onBording/
+  461  cat /Teoria/Virtualizacion.pdf
+  462  cd Teoria/
+  463  cat Virtualizacion.pdf 
+  464  64;1;2;4;6;9;11;15;21;22;28;29c64;1;2;4;6;9;11;15;21;22;28;29c64;1;2;4;6;9;11;15;21;22;28;29c64;1;2;4;6;9;11;15;21;22;28;29cclear
+  465  clear
+  466  cd ..
+  467  tree
+  468  cd ..
+  469  tree
+  470  tail -f/var/log/dmesg
+  471  sudo tail -f/var/log/dmesg
+  472  sudo tail -f /var/log/dmesg
+  473  cd
+  474  ll
+  475  cd repogit/
+  476  cd TP_AySO/
+  477  ll
+  478  cat lista_ordenada.txt 
+  479  git add .
+  480  git commit -m "ADD: Listado de usuarios ordenada"
+  481  git status
+  482  ll
+  483  git clone https://github.com/FTLettieri/TP_AySO.git
+  484  ll
+  485  cd TP_AySO/
+  486  ll
+  487  mv README.md /repogit/TP_AYSO
+  488  mv README.md /home/repogit/TP_AySO/
+  489  mv README.md /~/repogit/TP_AySO/
+  490  cat README.md 
+  491  f
+  492  ll
+  493  cd repogit/
+  494  cd TP_AySO/
+  495  ll
+  496  rm EOF
+  497  ll
+  498  git push
+  499  ll
+  500  vagrant halt
+  501  history
+  502  history -a
+  503  history
+  504  history -a
+  505  history
+  506  cd
+  507  cd repogit/
+  508  cd TP_AySO/
+  509  ll
+  510  history >> Historial_comandos_Fran.txt 
+  511  cat Historial_comandos_Fran.txt 
+  512  history >> Historial_comandos_Fran.txt | trail -n215
+  513  history >> Historial_comandos_Fran.txt | tail -n215
+  514  cat Historial_comandos_Fran.txt 
+  515  history | tail -n215 > Historial_comandos_Fran.txt 
+  516  cat Historial_comandos_Fran.txt 
+  517  history | head -n28 > Historial_comandos_Fran.txt 
+  518  cat Historial_comandos_Fran.txt 
+  519  history | tail -n215 > Historial_comandos_Fran.txt 
+  520  cat Historial_comandos_Fran.txt 
+  521  cat Historial_comandos_Fran.txt | head -n30 > Historial_comandos_Fran.txt 
+  522  cat Historial_comandos_Fran.txt 
+  523  history | tail -n215 > Historial_comandos_Fran.txt 
+  524  cat Historial_comandos_Fran.txt 
+  525  history | head -n327 > Historial_comandos_Fran.txt 
+  526  cat Historial_comandos_Fran.txt 
+  527  history | head -n327 | tail -n215 > Historial_comandos_Fran.txt 
+  528  cat Historial_comandos_Fran.txt 
+  529  ll
+  530  git add .
+  531  git commit -m "fix: Corregir el historial de comandos porque no estaban todos"
+  532  git push
+  533  history
+  534  sed -n '299,237p' history > Historial_comandos_Fran.txt 
+  535  history > historial.txt

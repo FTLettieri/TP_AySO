@@ -1,0 +1,38 @@
+  299  echo "Usuario=$(whoami)" > datos_usuario.txt
+  300  cat datos_usuario.txt 
+  301  git add .
+  302  git commit -m "ADD: agregado 1er ejercicio sobre datos_usuario.txt"
+  303  grep -i "model name" /proc/cpuinfo | head n-1 > datos_usuario.txt 
+  304  grep -i "model name" /proc/cpuinfo | head -n1 > datos_usuario.txt 
+  305  cat datos_usuario.txt 
+  306  echo "Usuario=$(whoami)" > datos_usuario.txt
+  307  grep -i "model name" /proc/cpuinfo | head -n1 >> datos_usuario.txt 
+  308  cat datos_usuario.txt 
+  309  git add .
+  310  git commit -m "feat: Añadiendo info de CPU"
+  311  man grep
+  312  ll
+  313  cat datos_usuario.txt 
+  314  man sort 
+  315  grep -v "nologin" /etc/passwd | head -n10 | sort --key=7 >> lista_ordenada.txt
+  316  cat lista_ordenada.txt 
+  317  cat /etc/passwd
+  318  cat lista_ordenada.txt 
+  319  cat $HOME/.bash_history
+  320  cp $HOME/.bash_history Historial_comandos_Fran.txt
+  321  ll
+  322  cat Historial_comandos_Fran.txt 
+  323  git add .
+  324  git commit -m "ADD: se agrega historial de comandos"
+  325  git stats
+  326  git status
+  327  git push
+  119  cat >> README.md << EOF
+  120  Alumno: Francisco Lettieri
+  121  Division: 312
+  122  Turno: Noche
+  123  EOF
+  124  cat README.md 
+  125  git add .
+  126  git commit -m "docs: se agrega info del alumno"
+  127  history -a
